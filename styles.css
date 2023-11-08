@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: none;
+}
+body{
+    background-color: black;
+}
+
+.container{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.calc-cover{
+    background-color: white;
+}
+
+.calc-name{
+    width: 100%;
+    height: 20px;
+}
+ .calc-name p{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .designer{
+    width: 450px;
+    height: 20px;
+    color: white;
+ }
+
+ .buttons{
+    background-color:rgb(13, 170, 175);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    border: 2.5px solid black;
+ }
+
+ .numbers input{
+    border: 0.1px solid grey;
+    border-radius: 5px;
+    outline: 0;
+    width: 80px;
+    height: 90px;
+    background: white;
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+    margin: 10px;
+    font-weight: bold;
+ }
+
+ .operator input{
+    border: 0.1px solid grey;
+    outline: 0;
+    width: 80px;
+    height: 53px;
+    border-radius: 5px;
+    background: white;
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+    margin: 10px;
+    font-weight: bold;
+ }
+
+ form .display{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+form .display input{
+    text-align: left;
+    padding: 5px;
+    flex: 1;
+    background-color: black;
+    color: white;
+    height: 60px;
+    font-size: 30px;
+    box-shadow: none;
+}
+
